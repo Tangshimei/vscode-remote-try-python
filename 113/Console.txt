@@ -1,0 +1,389 @@
+  Event handler of 'message' event must be added on the initial evaluation of worker script.
+s @ service-worker.js:1
+ vscs:web-client:7db3 init 👋
+ vscs:web-client:7db3:workbench-telemetry:telemetry-service initialize {
+  "browserId": "42babbbec5f59f58efd782ae53045c81",
+  "sessionId": "822e7492-747c-4e10-91e8-c575ff6f5311",
+  "pageLoadId": "0c757c47a05555d0caf7ea3623ececb4",
+  "host": "ppe.github.dev",
+  "browserName": "edge-chromium",
+  "browserVersion": "114.0.0",
+  "browserOS": "Windows 10",
+  "vscodeCommit": "704ed70d4fd1c6bd6342c436f1ede30d1cff4710",
+  "vscodeQuality": "stable",
+  "portalName": "codespaces-web-client",
+  "version": "0.1.02287.447-67361e2d",
+  "stableVSCodeCommitId": "704ed70d4fd1c6bd6342c436f1ede30d1cff4710",
+  "insiderVSCodeCommitId": "c9df8ee8e8c316f38dcc75a894ba150024ce3718",
+  "serviceLocation": "EastUS",
+  "serviceInstance": "ppe-rel-EastUS",
+  "environment": "Staging",
+  "serverCorrelationId": "2dfaea05-eecb-4acb-93c8-be1cd12ec851",
+  "cookiesEnabled": true,
+  "workbenchType": "codespaces",
+  "editor": "vscode"
+}
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint requested to connect once Object Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint requested to connect Object Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:5B94223BA853AD9981DA35668CF051C58DA2 connection record: false
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:5B94223BA853AD9981DA35668CF051C58DA2 creating new connection
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint creating connection Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare-joint:liveshare asked to connect
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare-joint:liveshare creating new connection
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare-joint:liveshare creating connection
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare-joint:liveshare connection status changed: none -> connecting, error: undefined
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare-joint:liveshare firing change event:  Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:onConnectionChanged:5B94223BA853AD9981DA35668CF051C58DA2 none -> connecting
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare requested to connect once Object Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare requested to connect Object Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:5B94223BA853AD9981DA35668CF051C58DA2 connection record: false
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:5B94223BA853AD9981DA35668CF051C58DA2 creating new connection
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare creating connection Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare asked to connect
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare creating new connection
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare creating connection
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare connection status changed: none -> connecting, error: undefined
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare firing change event:  Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:onConnectionChanged:5B94223BA853AD9981DA35668CF051C58DA2 none -> connecting
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare creating workspace client Object
+ vscs:sw:5173:init got "configureServiceWorker" message Object
+ vscs:sw:5173:ConfigurationManager Updated service worker configuration Object
+  vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench Initializing workbench without a configured service worker
+writeEvent @ 836.969eea5….js:1
+  INFO Resolving connection token (codespaces)...
+  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.remote-repositories' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+  WARN Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+  WARN Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookControllerKind' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+   ERR VSCode connection is not established yet: Error: VSCode connection is not established yet
+    at t.assert (https://assets.ppe.github.dev/static/351.c6a6745567bb201721f4.js:1:261)
+    at t.assertDefined (https://assets.ppe.github.dev/static/836.969eea5ec39da52bdb44.js:1:9379)
+    at D.e (https://assets.ppe.github.dev/static/app.3a6a3d1bcffeffc69814.js:1:185668)
+    at D.rewrite (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:3123)
+    at y.uriToBrowserUri (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:3908)
+    at Object.at [as asCSSUrl] (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:40140)
+    at R.g (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:1661:16734)
+   ERR VSCode connection is not established yet: Error: VSCode connection is not established yet
+    at t.assert (https://assets.ppe.github.dev/static/351.c6a6745567bb201721f4.js:1:261)
+    at t.assertDefined (https://assets.ppe.github.dev/static/836.969eea5ec39da52bdb44.js:1:9379)
+    at D.e (https://assets.ppe.github.dev/static/app.3a6a3d1bcffeffc69814.js:1:185668)
+    at D.rewrite (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:3123)
+    at y.uriToBrowserUri (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:3908)
+    at Object.at [as asCSSUrl] (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:40140)
+    at R.g (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:1661:16859)
+  Refused to load the image 'vscode-remote://codespaces+tangshimei-turbo-space-parakeet-rx9555ww4xpfxqg9/vscode/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/markdown-language-features/media/preview-light.svg' because it violates the following Content Security Policy directive: "img-src 'self'
+            https:
+            data:
+            blob:
+            vscode-remote-resource:
+            https://ppe.github.dev/
+        https://assets.ppe.github.dev/".
+
+scanDomNode @ workbench.web.main.js:128
+  WebSocket connection to 'wss://vsls-ppe-rel-usw2-private-relay.servicebus.windows.net/$hc/373ca2f61d0280a9287641ab3883365c7b0f--d9f7fa59-47e3-4fd9-8081-fad0a0b9d15e?sb-hc-action=connect&sb-hc-token=SharedAccessSignature%20sr%3Dsb%253A%252F%252Fvsls-ppe-rel-usw2-private-relay.servicebus.windows.net%252F373ca2f61d0280a9287641ab3883365c7b0f--d9f7fa59-47e3-4fd9-8081-fad0a0b9d15e%26sig%3DxmFJKbHDLN7FYLlvg82uvNnjb%252Fud9BXdsqYIIUvqlO4%253D%26se%3D1681495526%26skn%3DWorkspaceShareKey' failed: Error during WebSocket handshake: Unexpected response code: 404
+openConnection @ 521.3943e62….js:1
+  vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare connection failed:  
+writeEvent @ 836.969eea5….js:1
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare connection status changed: connecting -> disconnected, error: 
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare firing change event:  Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:onConnectionChanged:5B94223BA853AD9981DA35668CF051C58DA2 connecting -> disconnected
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:onConnectionChanged:5B94223BA853AD9981DA35668CF051C58DA2 disposing the connection
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare disposing 5B94223BA853AD9981DA35668CF051C58DA2 connection
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare:WorkspaceClient stopCheckConnection reason:'disposed'
+  vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare connection failed:  
+writeEvent @ 836.969eea5….js:1
+  vscs:web-client:7db3:codespaces-component:connection-hub:liveshare disposing connection "5B94223BA853AD9981DA35668CF051C58DA2" due to an error 
+writeEvent @ 836.969eea5….js:1
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare disposing 5B94223BA853AD9981DA35668CF051C58DA2 connection
+  vscs:web-client:7db3:codespaces-component:connection-hub:liveshare error during connection 
+writeEvent @ 836.969eea5….js:1
+  vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare-joint:liveshare connection failed:  
+writeEvent @ 836.969eea5….js:1
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare-joint:liveshare connection status changed: connecting -> disconnected, error: 
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare-joint:liveshare firing change event:  Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:onConnectionChanged:5B94223BA853AD9981DA35668CF051C58DA2 connecting -> disconnected
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:onConnectionChanged:5B94223BA853AD9981DA35668CF051C58DA2 disposing the connection
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint disposing 5B94223BA853AD9981DA35668CF051C58DA2 connection
+  vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:5B94223BA853AD9981DA35668CF051C58DA2:liveshare-joint:liveshare connection failed:  
+writeEvent @ 836.969eea5….js:1
+  vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint disposing connection "5B94223BA853AD9981DA35668CF051C58DA2" due to an error 
+writeEvent @ 836.969eea5….js:1
+ vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint disposing 5B94223BA853AD9981DA35668CF051C58DA2 connection
+  vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint error during connection 
+writeEvent @ 836.969eea5….js:1
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Starting
+836.969eea5….js:1  Uncaught (in promise) 
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Starting
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Starting
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Starting
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Starting
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Starting
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Starting
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Starting
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Starting
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Starting
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Starting
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Starting
+ vscs:web-client:7db3:codespace-state-watcher codespace state -> Available
+ vscs:web-client:7db3:codespaces-component onCodespaceStateChange:  Array(3)
+ vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench Progress: Connecting to codespace...
+ vscs:web-client:7db3:codespaces-component:connection-hub:vscode requested to connect Object Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:vscode:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 connection record: false
+ vscs:web-client:7db3:codespaces-component:connection-hub:vscode:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 creating new connection
+ vscs:web-client:7db3:codespaces-component:connection-hub:vscode creating connection Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode asked to connect
+ vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode creating new connection
+ vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode creating connection
+ vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode connection status changed: none -> connecting, error: undefined
+ vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode firing change event:  Object
+ vscs:web-client:7db3:codespaces-component:connection-hub:vscode:onConnectionChanged:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 none -> connecting
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode get LS connection
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint requested to connect once Object Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint requested to connect Object Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:B1CAFEFFEE5194BD723C6031718E8B5AC4D8 connection record: false
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:B1CAFEFFEE5194BD723C6031718E8B5AC4D8 creating new connection
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint creating connection Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare-joint:liveshare asked to connect
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare-joint:liveshare creating new connection
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare-joint:liveshare creating connection
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare-joint:liveshare connection status changed: none -> connecting, error: undefined
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare-joint:liveshare firing change event:  Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:onConnectionChanged:B1CAFEFFEE5194BD723C6031718E8B5AC4D8 none -> connecting
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare requested to connect once Object Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare requested to connect Object Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:B1CAFEFFEE5194BD723C6031718E8B5AC4D8 connection record: false
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:B1CAFEFFEE5194BD723C6031718E8B5AC4D8 creating new connection
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare creating connection Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare asked to connect
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare creating new connection
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare creating connection
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare connection status changed: none -> connecting, error: undefined
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare firing change event:  Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:onConnectionChanged:B1CAFEFFEE5194BD723C6031718E8B5AC4D8 none -> connecting
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare creating workspace client Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench:vscode-connection requested to connect Object Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench:vscode-connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 connection record: true
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench:vscode-connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 connecting with timeout - Infinity ms
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode asked to connect with timeout of Infinity ms
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode asked to connect
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode return promise, resolved: false
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespace-state-watcher codespace state -> Available
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespace-state-watcher codespace state -> Available
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient join started
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Host version: {"version":"1.0.5571.49914","protocolVersion":"2.2","platformName":"Linux 5.4.0","platformVersion":"5.4.0.1105"}
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient joinWorkspace -> session:3 conversation:01486b08-b170-4ba5-acd7-8e3796276492 join messages count:2
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient join completed
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient:1 Start checking connection timeout:5000
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare ownerId: "398a6654-997b-47e9-b12b-9515b896b4de_83816237"
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare LS session joined and authenticated
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Creating proxy for workspace service
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare connection status changed: connecting -> connected, error: undefined
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare firing change event:  Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:onConnectionChanged:B1CAFEFFEE5194BD723C6031718E8B5AC4D8 connecting -> connected
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare 🔌 connected
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare-joint:liveshare connection status changed: connecting -> connected, error: undefined
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare-joint:liveshare firing change event:  Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:onConnectionChanged:B1CAFEFFEE5194BD723C6031718E8B5AC4D8 connecting -> connected
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare-joint:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare-joint:liveshare 🔌 connected
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Creating proxy for serverSharing service
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Creating proxy for IVSCodeServerHostService service
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Creating proxy for ICodespaceHostService service
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode starting vscode server.. Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Creating proxy for sourceEvent service
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode Executed start-remote-server using Live Share
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode vscode started, forwarding the server port
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode the server port forwarded, port number is 36035
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode vscode server startup complete
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode forwarding the VSCode Server port "36035".
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode VSCode Server port "36035" forwarded.
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Creating proxy for streamManager service
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode connection status changed: connecting -> connected, error: undefined
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode firing change event:  Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:onConnectionChanged:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 connecting -> connected
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode 🔌 connected
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench connection type MainThread
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench Progress: Done
+service-worker.js:1 vscs:sw:5173:init got "connectMessageType" message Object
+service-worker.js:1 vscs:sw:5173:init connecting
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw requested to connect Object Object
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 connection record: false
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 creating new connection
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw creating connection Object
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode asked to connect
+log.ts:421  INFO Resolved connection token (codespaces) after 9227 ms
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode creating new connection
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode creating connection
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode connection status changed: none -> connecting, error: undefined
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode firing change event:  Object
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:onConnectionChanged:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 none -> connecting
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode get LS connection
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw requested to connect once Object Object
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw requested to connect Object Object
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:B1CAFEFFEE5194BD723C6031718E8B5AC4D8 connection record: false
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:B1CAFEFFEE5194BD723C6031718E8B5AC4D8 creating new connection
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw creating connection Object
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare asked to connect
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare creating new connection
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare creating connection
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare connection status changed: none -> connecting, error: undefined
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare firing change event:  Object
+log.ts:421  INFO Creating a socket (renderer-Management-c884c610-c5ec-4159-b087-c6bde5cd9deb)...
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:onConnectionChanged:B1CAFEFFEE5194BD723C6031718E8B5AC4D8 none -> connecting
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare creating workspace client Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench creating new WebSocket #1, url: wss://codespaces+tangshimei-turbo-space-parakeet-rx9555ww4xpfxqg9:443/stable-704ed70d4fd1c6bd6342c436f1ede30d1cff4710?reconnectionToken=c884c610-c5ec-4159-b087-c6bde5cd9deb&reconnection=false&skipWebSocketFrames=false
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench:web-socket-1 starting connection Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench:web-socket-1 requested to connect Object Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench:web-socket-1:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 connection record: true
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench:web-socket-1:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 return connected
+log.ts:421  INFO Creating a socket (renderer-ExtensionHost-b6e39c76-4156-471c-91dd-fc1406633a08)...
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench creating new WebSocket #2, url: wss://codespaces+tangshimei-turbo-space-parakeet-rx9555ww4xpfxqg9:443/stable-704ed70d4fd1c6bd6342c436f1ede30d1cff4710?reconnectionToken=b6e39c76-4156-471c-91dd-fc1406633a08&reconnection=false&skipWebSocketFrames=false
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench:web-socket-2 starting connection Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench:web-socket-2 requested to connect Object Object
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench:web-socket-2:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 connection record: true
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench:web-socket-2:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 return connected
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient openStreamingChannel -> streamId:ServerSharing_2
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:liveshare:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient openStreamingChannel -> streamId:ServerSharing_1
+836.969eea5ec39da52bdb44.js:1  vscs:web-client:7db3:workbench-telemetry:telemetry-service ["codespaces/web/load/action_stop",{"errorCode":-1,"errorType":"ConnectedError","errorMessage":"connected","originalErrorType":"[no original type]","errorDidCatch":false,"stack":"Error: connected\n    at [PATH]/app.3a6a3d1bcffeffc69814.js:1:129419\n    at [PATH]/app.3a6a3d1bcffeffc69814.js:1:146959\n    at g.invoke [PATH]/workbench.web.main.js:83:145)\n    at r.deliver [PATH]/workbench.web.main.js:83:2121)\n    at l.fire [PATH]/workbench.web.main.js:83:1729)\n    at C.<anonymous> [PATH]/app.3a6a3d1bcffeffc69814.js:1:151695)\n    at Generator.next (<anonymous>)\n    at [PATH]/app.3a6a3d1bcffeffc69814.js:1:145827\n    at new Promise (<anonymous>)\n    at s [PATH]/app.3a6a3d1bcffeffc69814.js:1:145572)","action":"Load","result":"Success"}]
+writeEvent @ 836.969eea5ec39da52bdb44.js:1
+log.ts:421  INFO Creating a socket (renderer-ExtensionHost-b6e39c76-4156-471c-91dd-fc1406633a08) was successful after 343 ms.
+log.ts:421  INFO Creating a socket (renderer-Management-c884c610-c5ec-4159-b087-c6bde5cd9deb) was successful after 354 ms.
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient join started
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Host version: {"version":"1.0.5571.49914","protocolVersion":"2.2","platformName":"Linux 5.4.0","platformVersion":"5.4.0.1105"}
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient joinWorkspace -> session:4 conversation:01486b08-b170-4ba5-acd7-8e3796276492 join messages count:2
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient join completed
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient:1 Start checking connection timeout:5000
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare ownerId: "398a6654-997b-47e9-b12b-9515b896b4de_83816237"
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare LS session joined and authenticated
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Creating proxy for workspace service
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare connection status changed: connecting -> connected, error: undefined
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare firing change event:  Object
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:onConnectionChanged:B1CAFEFFEE5194BD723C6031718E8B5AC4D8 connecting -> connected
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare 🔌 connected
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Creating proxy for serverSharing service
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Creating proxy for IVSCodeServerHostService service
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Creating proxy for ICodespaceHostService service
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode starting vscode server.. Object
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode Executed start-remote-server using Live Share
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode vscode started, forwarding the server port
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode the server port forwarded, port number is 36035
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode vscode server startup complete
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode forwarding the VSCode Server port "36035".
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode VSCode Server port "36035" forwarded.
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient Creating proxy for streamManager service
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode connection status changed: connecting -> connected, error: undefined
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode firing change event:  Object
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:onConnectionChanged:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 connecting -> connected
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode 🔌 connected
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient openStreamingChannel -> streamId:ServerSharing_3
+service-worker.js:1 vscs:sw:5173:connection-hub:liveshare-sw:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8:liveshare:WorkspaceClient openStreamingChannel -> streamId:ServerSharing_4
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscs:web-client:7db3:codespaces-component:workbench-page:workbench:vscode-workbench:providers:commands command "_codespaces.timeToInteractive" is invoked'
+commandService.ts:91  Uncaught (in promise) Error: command 'setContext' not found
+    at w.k (commandService.ts:91:26)
+    at w.executeCommand (commandService.ts:85:15)
+log.ts:421  INFO Updating additional builtin extensions cache
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode start sharing the port "5600"
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode updating protocol of "5600" to "true"
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode port 5600 protocol updated to https.
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode updating privacy of "5600" to "public"
+log.ts:441   ERR [Extension Host] (node:267) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+console.ts:137  [Extension Host] (node:267) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+y @ console.ts:137
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode port 5600 privacy updated to public.
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode start sharing the port "5600"
+836.969eea5ec39da52bdb44.js:1 vscs:web-client:7db3:codespaces-component:connection-hub:vscode:connection:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710:vscode port 5600 is already forwarded.
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw requested to connect Object Object
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 connection record: true
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 return connected
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw requested to connect Object Object
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 connection record: true
+service-worker.js:1 vscs:sw:5173:connection-hub:vscode-sw:B1CAFEFFEE5194BD723C6031718E8B5AC4D8_ff422243-188e-4d81-bc30-e7c5c67a064c_stable_704ed70d4fd1c6bd6342c436f1ede30d1cff4710 return connected
+async.ts:355  Uncaught (in promise) Canceled: Canceled
+    at c.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:13892)
+    at n.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:14169)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:619:14925
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:81:29588
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+async.ts:355  Uncaught (in promise) Canceled: Canceled
+    at c.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:13892)
+    at n.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:14169)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:619:14925
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:81:29588
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+async.ts:355  Uncaught (in promise) Canceled: Canceled
+    at c.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:13892)
+    at n.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:14169)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:619:14925
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:81:29588
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+async.ts:355  Uncaught (in promise) Canceled: Canceled
+    at c.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:13892)
+    at n.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:14169)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:619:14925
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:81:29588
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+async.ts:355  Uncaught (in promise) Canceled: Canceled
+    at c.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:13892)
+    at n.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:14169)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:619:14925
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:81:29588
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+async.ts:355  Uncaught (in promise) Canceled: Canceled
+    at c.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:13892)
+    at n.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:14169)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:619:14925
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:81:29588
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+async.ts:355  Uncaught (in promise) Canceled: Canceled
+    at c.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:13892)
+    at n.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:14169)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:619:14925
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:81:29588
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+async.ts:355  Uncaught (in promise) Canceled: Canceled
+    at c.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:13892)
+    at n.cancel (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:87:14169)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:619:14925
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
+    at https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:81:29588
+    at g.invoke (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:145)
+    at r.deliver (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:2121)
+    at l.fire (https://assets.ppe.github.dev/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/workbench.web.main.js:83:1729)
