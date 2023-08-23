@@ -1,0 +1,94 @@
+[Warning] 60 console messages are not shown.
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app~pfHelper-BaseCore.js.7bffb053b234d15329f3.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app~pfHelper-BaseCore.js.7bffb053b234d15329f3.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app~pfHelper-HelperFuncs.js.103dae03006e8f1731a8.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app~pfHelper-HelperFuncs.js.103dae03006e8f1731a8.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app~pfHelper-EventHelpers.js.1e553a203cb083b0529f.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app~pfHelper-EventHelpers.js.1e553a203cb083b0529f.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app~pfHelper-ProcessTelemetryContext.js.47b66726377975287258.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app~pfHelper-ProcessTelemetryContext.js.47b66726377975287258.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app~pfHelper-Utils.js.3f0be0d6723595fe04c3.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app~pfHelper-Utils.js.3f0be0d6723595fe04c3.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-index.js.c7ef7d117d28156516c9.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-index.js.c7ef7d117d28156516c9.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-utils.js.713d3ebad62bfa13cc51.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-utils.js.713d3ebad62bfa13cc51.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-events.js.0f3a945d2b9a3b238bc8.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-events.js.0f3a945d2b9a3b238bc8.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-util.js.5f0b487c1aabdaaa791a.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-util.js.5f0b487c1aabdaaa791a.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-assert.js.7df3cbb39b9c66985eef.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-assert.js.7df3cbb39b9c66985eef.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-linkedMap.js.f754cbf3d6b6526019dd.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-linkedMap.js.f754cbf3d6b6526019dd.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-sshSessionConfiguration.js.6cb67f4fd423adef22cd.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-sshSessionConfiguration.js.6cb67f4fd423adef22cd.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-sshSession.js.c5f43b9362bb3c496495.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-sshSession.js.c5f43b9362bb3c496495.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-keyExchangeService.js.0162c1c66a7d6a2b4768.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-keyExchangeService.js.0162c1c66a7d6a2b4768.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-sshProtocol.js.06a1bb1e8c70c6e0b7d5.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-sshProtocol.js.06a1bb1e8c70c6e0b7d5.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-tunnelManagementHttpClient.js.97d3e87c39ec9854308d.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-tunnelManagementHttpClient.js.97d3e87c39ec9854308d.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-xterm.js.7973891c9ed09509f6c3.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-xterm.js.7973891c9ed09509f6c3.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-react-dom.production.min.js.afd3ea691e94a357cb58.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-react-dom.production.min.js.afd3ea691e94a357cb58.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-google-protobuf.js.85e4f3c2cf6f8ee19b7d.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-google-protobuf.js.85e4f3c2cf6f8ee19b7d.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-VSLS.js.2695a30dc3fa57286d3e.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-VSLS.js.2695a30dc3fa57286d3e.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/commons-app-CodespaceHostService.v1_pb.js.09eaed67231072cd40b9.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (commons-app-CodespaceHostService.v1_pb.js.09eaed67231072cd40b9.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/327.7adbd6b19923e7f0cba2.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (327.7adbd6b19923e7f0cba2.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/779.f5826a33d3e4cc3a441e.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (779.f5826a33d3e4cc3a441e.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/872.76e62d1f19ce8837067a.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (872.76e62d1f19ce8837067a.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/489.3e1c2be2379843eef70c.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (489.3e1c2be2379843eef70c.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/app.185d87916f02994ac621.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (app.185d87916f02994ac621.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/964.5b85be55f1343a83c7dc.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (964.5b85be55f1343a83c7dc.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/bootstrap.c4f684916463c8881025.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (bootstrap.c4f684916463c8881025.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/351.be67b8db556492a3720f.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (351.be67b8db556492a3720f.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://assets.ppe.github.dev/static/pfHelper.b2b43f39fc595a0ed80c.js.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (pfHelper.b2b43f39fc595a0ed80c.js, line 0)
+[Error] FetchEvent.respondWith received an error: Error: Service not registered: HttpClient
+[Error] Cannot load https://github.githubassets.com/favicon.ico.
+[Error] Failed to load resource: FetchEvent.respondWith received an error: Error: Service not registered: HttpClient (favicon.ico, line 0)
+[Warning] The resource https://assets.ppe.github.dev/static/app.185d87916f02994ac621.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it wasn't preloaded for nothing.
